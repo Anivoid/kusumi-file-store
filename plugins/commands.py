@@ -54,10 +54,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://www.youtube.com/channel/UCsR0Jgsp_8k1M0vysa5tEfQ')
+            InlineKeyboardButton('⌑ ᴍᴀɪɴ ⌑', url='https://t.me/ongoing_haniflix')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/lotus_botz'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/lotus_bot_update')
+            InlineKeyboardButton('⌑ ʜᴀɴɪꜰʟɪx ⌑', url='https://t.me/haniflix_verse'),
+            InlineKeyboardButton('⌑ ᴊᴀᴠꜰʟɪx ⌑', url='https://t.me/+_klqs93gEstkYzk1')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
